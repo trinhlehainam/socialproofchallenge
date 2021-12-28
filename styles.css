@@ -434,6 +434,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -452,6 +456,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .right-0 {
   right: 0px;
+}
+
+.bottom-full {
+  bottom: 100%;
+}
+
+.top-full {
+  top: 100%;
 }
 
 .z-10 {
@@ -474,6 +486,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -502,6 +518,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-scale-x: .5;
   --tw-scale-y: .5;
   transform: var(--tw-transform);
+}
+
+.scroll-mb-0 {
+  scroll-margin-bottom: 0px;
 }
 
 .flex-row {
@@ -567,6 +587,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-very-dark-magenta {
   --tw-bg-opacity: 1;
   background-color: hsl(300 43% 22% / var(--tw-bg-opacity));
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
 }
 
 .px-6 {
@@ -666,6 +690,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:block {
     display: block;
+  }
+
+  .xl\:inline {
+    display: inline;
   }
 
   .xl\:hidden {
